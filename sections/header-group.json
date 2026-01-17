@@ -1,19 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
   "sections": {
+    "custom_liquid_JHm9Up": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.big-year-banner{\n  position:relative;\n  overflow:hidden;\n  background:linear-gradient(180deg,#0b0b0b 0%,#141414 60%,#0b0b0b 100%);\n  color:#fff;\n  padding:16px 0;\n  font-size:15px;\n  font-weight:900;\n  letter-spacing:.5px;\n  border-bottom:1px solid rgba(255,215,120,.25);\n\n  width:100vw;\n  left:50%;\n  right:50%;\n  margin-left:-50vw;\n  margin-right:-50vw;\n}\n\n/* ✅ IMPORTANT: on force le contenu au-dessus */\n.big-track{ \n  position:relative;\n  z-index:5;\n  display:inline-flex;\n  align-items:center;\n  white-space:nowrap;\n  width:max-content;\n  animation:bigScroll 15s linear infinite;\n}\n@keyframes bigScroll{\n  0%{transform:translateX(0)}\n  100%{transform:translateX(-50%)}\n}\n\n/* ✅ Montagnes (derrière le texte) */\n.big-year-banner::before{\n  content:\"\";\n  position:absolute;\n  inset:auto 0 0 0;\n  height:70%;\n  z-index:1;\n  pointer-events:none;\n  background:\n    linear-gradient(to top, rgba(0,0,0,.55), transparent 70%),\n    repeating-linear-gradient(135deg,\n      rgba(255,215,120,.10) 0 6px,\n      rgba(255,215,120,0) 6px 18px);\n  clip-path:polygon(\n    0% 100%, 0% 70%,\n    10% 62%, 18% 68%, 26% 54%, 35% 66%,\n    44% 52%, 55% 68%, 65% 50%, 74% 66%,\n    84% 56%, 92% 64%, 100% 58%,\n    100% 100%\n  );\n  opacity:.9;\n}\n\n/* ✅ Reflet or (derrière le texte) */\n.big-year-banner::after{\n  content:\"\";\n  position:absolute;\n  top:0; left:-60%;\n  width:40%;\n  height:100%;\n  z-index:2;\n  pointer-events:none;\n  background:linear-gradient(120deg,transparent,rgba(255,215,120,.75),transparent);\n  animation:bigShine 7s ease-in-out infinite;\n}\n@keyframes bigShine{\n  0%{left:-60%;opacity:0}\n  25%{opacity:1}\n  55%{left:120%;opacity:.45}\n  100%{left:120%;opacity:0}\n}\n\n/* Items */\n.big-item{\n  display:inline-flex;\n  align-items:center;\n  gap:10px;\n  margin:0 18px;\n  color:#f1f1f1;\n}\n.big-dot{\n  margin:0 10px;\n  color:#FFD777;\n  opacity:.9;\n}\n\n/* Badge or */\n.big-badge{\n  display:inline-flex;\n  align-items:center;\n  padding:6px 18px;\n  border-radius:999px;\n  background:linear-gradient(90deg,#FFD777,#FFB703,#FFD777);\n  color:#0b0b0b;\n  font-weight:1000;\n  box-shadow:0 8px 20px rgba(255,183,3,.45);\n  animation:pulseGold 1.6s infinite;\n}\n@keyframes pulseGold{\n  0%{transform:scale(1); box-shadow:0 0 0 0 rgba(255,183,3,.6)}\n  50%{transform:scale(1.05); box-shadow:0 0 0 14px rgba(255,183,3,0)}\n  100%{transform:scale(1); box-shadow:0 0 0 0 rgba(255,183,3,0)}\n}\n\n.stock-limit{\n  margin-left:6px;\n  color:#b91c1c;\n  font-weight:1000;\n  text-shadow:0 0 6px rgba(255,215,120,.6);\n}\n\n@media(max-width:768px){\n  .big-year-banner{font-size:13px;padding:14px 0}\n  .big-track{animation-duration:12s}\n  .big-item{margin:0 12px;gap:8px}\n}\n</style>\n\n<div class=\"big-year-banner\" role=\"region\" aria-label=\"Bannière offre\">\n  <div class=\"big-track\">\n    <span class=\"big-badge\">⏳ OFFRE SOLDES D'HIVER – <span class=\"stock-limit\">STOCK LIMITÉ</span></span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Livraison offerte</span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Service client Français</span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Satisfait ou remboursé 30 jours</span>\n    <span class=\"big-dot\">•</span>\n\n    <!-- duplication -->\n    <span class=\"big-badge\">⏳ OFFRE SOLDES D'HIVER – <span class=\"stock-limit\">STOCK LIMITÉ</span></span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Livraison offerte</span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Service client Français</span>\n    <span class=\"big-dot\">•</span>\n    <span class=\"big-item\">Satisfait ou remboursé 30 jours</span>\n    <span class=\"big-dot\">•</span>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "message-1": {
           "type": "message",
           "settings": {
+            "text": "Announce something here",
+            "learn_more_text": "Learn more",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
         "message-1"
       ],
+      "disabled": true,
       "settings": {
         "announcement_bar_position": "non_sticky",
         "announcement_text_size": "normal",
@@ -27,19 +56,27 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "enable_sticky_header": true,
         "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 140,
+        "mobile_logo_max_width": 100,
         "navigation_menu": "main-menu",
+        "sidebar_navigation_menu": "",
         "header_layout": "logo_left_navigation_center",
         "show_icons": false,
         "reduce_desktop_padding": false,
+        "show_locale_selector": true,
+        "show_country_selector": false,
         "enable_transparent_header": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "search_menu": ""
       }
     }
   },
   "order": [
+    "custom_liquid_JHm9Up",
     "announcement-bar",
     "header"
   ]
